@@ -51,10 +51,13 @@
         android:layout_marginStart="0dp"
         android:textColor="?android:attr/actionMenuTextColor"
         android:textSize="18sp"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintLeft_toLeftOf="@+id/text_view_address"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginEnd="8dp"
         android:text="@string/location_contact"
+        android:onClick="createPhoneIntent"
         app:layout_constraintTop_toBottomOf="@+id/image_view_map" />
 
     <TextView
